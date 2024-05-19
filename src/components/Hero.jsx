@@ -54,7 +54,7 @@ const Hero = () => {
                         initial="hidden"
                         animate="visible"
                         className="btn btn-outline btn-primary"
-                        href="#"
+                        href="./src/assets/resume/Resume-Dius.pdf"
                         download="Dius_Resume"
                     >
                         Download Resume

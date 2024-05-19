@@ -26,15 +26,15 @@ const Experience = () => {
                         className="w-full max-w-xl lg:w-3/4"
                     >
                         <p className="mb-2 text-sm text-base-content">
-                            <h6 className="mb-2 font-semibold">
+                            <a className="mb-2 font-semibold">
                                 {experience.role} -{' '}
                                 <span className="text-sm text-primary">
                                     {experience.company}
                                 </span>
-                            </h6>
-                            <p className="mb-4 text-base-content">
+                            </a>
+                            <span className="block mb-4 text-base-content">
                                 {experience.description}
-                            </p>
+                            </span>
                             {experience.technologies.map(
                                 (technology, index) => (
                                     <span

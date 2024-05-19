@@ -28,7 +28,7 @@ function Projects() {
                         className="w-full max-w-xl lg:w-3/4"
                     >
                         <h6 className="mb-2 text-xl font-semibold">
-                            {project.title}
+                            <a href={`${project.link}`}>{project.title}</a>
                         </h6>
                         <p className="mb-4 text-base-content">
                             {project.description}
