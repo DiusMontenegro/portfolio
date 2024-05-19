@@ -21,7 +21,7 @@ const Hero = () => {
                     initial={{ x: 100, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.8, delay: 0.5 }}
-                    src="./src/assets/Dius.jpg"
+                    src="./Dius.jpg"
                     className="max-w-sm rounded-lg shadow-2xl"
                 />
                 <div>
