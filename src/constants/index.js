@@ -50,14 +50,14 @@ export const PROJECTS = [
             "Product Dashboard is a CodeIgniter web app for managing products and user accounts, with admin controls, reviews, and MySQL data storage.",
         technologies: ["PHP", "CodeIgniter 3", "WAMP", "mySQL"],
     },
-    // {
-    //     title: 'DsTube',
-    //     image: project3,
-    //     link: 'https://dstube.onrender.com',
-    //     description:
-    //         'A personal portfolio website showcasing projects, skills, and contact information.',
-    //     technologies: ['HTML', 'CSS', 'React', 'Bootstrap'],
-    // },
+    {
+        title: 'Food.',
+        image: project3,
+        link: 'https://food-sepia-one.vercel.app/',
+        description:
+            'A full-stack CRUD app for managing food products. Create, view, update, and delete items using React Query, Tailwind CSS, DaisyUI, and Firebase.',
+        technologies: ['React-Query', 'Firebase', 'Tailwind'],
+    },
 ];
 
 export const CONTACT = {
