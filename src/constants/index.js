@@ -51,12 +51,12 @@ export const PROJECTS = [
         technologies: ["PHP", "CodeIgniter 3", "WAMP", "mySQL"],
     },
     {
-        title: 'Food.',
+        title: "Food.",
         image: project3,
-        link: 'https://food-sepia-one.vercel.app/',
+        link: "https://food-sepia-one.vercel.app/",
         description:
-            'A full-stack CRUD app for managing food products. Create, view, update, and delete items using React Query, Tailwind CSS, DaisyUI, and Firebase.',
-        technologies: ['React-Query', 'Firebase', 'Tailwind'],
+            "A full-stack CRUD app for managing food products. Create, view, update, and delete items using React Query, Tailwind CSS, DaisyUI, and Firebase.",
+        technologies: ["React-Query", "Firebase", "Tailwind"],
     },
 ];
 
